@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "google-trends": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@apify/actors-mcp-server",
+        "--tools",
+        "cleandata-labs/google-trends-explorer"
+      ],
+      "env": {
+        "APIFY_TOKEN": "<YOUR_APIFY_TOKEN>"
+      }
+    }
+  }
+}

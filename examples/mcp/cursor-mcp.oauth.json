@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "google-trends": {
+      "url": "https://mcp.apify.com?tools=cleandata-labs/google-trends-explorer"
+    }
+  }
+}

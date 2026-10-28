@@ -1,0 +1,18 @@
+{
+  "name": "google-trends-explorer-mcp-examples",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Examples for the Google Trends Explorer Apify Actor",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "apify-client": "^2.25.0"
+  },
+  "scripts": {
+    "compare-keywords": "node compare-keywords.mjs",
+    "trending-now": "node trending-now.mjs"
+  }
+}
