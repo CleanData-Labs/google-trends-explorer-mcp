@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "Examples for the Google Trends Explorer Apify Actor",
+  "description": "Examples for the Google Trends Scraper Apify Actor",
   "license": "MIT",
   "engines": {
     "node": ">=18"

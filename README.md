@@ -1,6 +1,6 @@
-<p align="center"><img src="assets/icon.png" alt="Google Trends Explorer icon" width="96"></p>
+<p align="center"><img src="assets/icon.png" alt="Google Trends Scraper icon" width="96"></p>
 
-# Google Trends Explorer (remote MCP tool)
+# Google Trends Scraper (remote MCP tool)
 
 Google Trends data for AI agents and scripts: interest over time, interest by region, related and rising queries, Trending Now and keyword suggestions. No Google API key.
 
@@ -36,7 +36,7 @@ Ready-made config files are in [`examples/mcp/`](examples/mcp/).
 
 ### Claude (claude.ai and Claude Desktop)
 
-Settings > Connectors > **Add custom connector**. Name: `Google Trends Explorer`, Remote MCP server URL: `https://mcp.apify.com?tools=cleandata-labs/google-trends-explorer`. Sign in with Apify when asked.
+Settings > Connectors > **Add custom connector**. Name: `Google Trends Scraper`, Remote MCP server URL: `https://mcp.apify.com?tools=cleandata-labs/google-trends-explorer`. Sign in with Apify when asked.
 
 If you prefer a local config file, Claude Desktop can run Apify's official stdio server instead (`claude_desktop_config.json`, needs Node.js 18+):
 
@@ -241,8 +241,9 @@ Apify's free plan includes a monthly platform credit (currently $5), which is en
 
 More tools from CleanData Labs:
 
-- [URL to Markdown for LLMs](https://github.com/CleanData-Labs/url-to-markdown-mcp): Turn web pages and PDFs into clean, LLM-ready Markdown with metadata, token counts and optional RAG chunks.
-- [Google Ads Transparency Explorer](https://github.com/CleanData-Labs/google-ads-transparency-explorer-mcp): See the ads any company runs on Google Search, YouTube, Shopping, Maps and Play, from the public Google Ads Transparency Center.
+- [URL to Markdown Converter](https://github.com/CleanData-Labs/url-to-markdown-mcp): Turn web pages and PDFs into clean, LLM-ready Markdown with metadata, token counts and optional RAG chunks.
+- [Google Ads Transparency Scraper](https://github.com/CleanData-Labs/google-ads-transparency-explorer-mcp): See the ads any company runs on Google Search, YouTube, Shopping, Maps and Play, from the public Google Ads Transparency Center.
+- [Keyword Research Tool — Autocomplete & Trends](https://github.com/CleanData-Labs/seo-keyword-research-for-agents-mcp): Keyword ideas from Google Autocomplete plus Google Trends interest, direction and rising searches, returned as one compact JSON result per seed keyword with a plain-English summary.
 
 ## License
 

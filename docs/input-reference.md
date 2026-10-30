@@ -1,4 +1,4 @@
-# Input reference: Google Trends Explorer
+# Input reference: Google Trends Scraper
 
 Generated from the Actor's published input schema. All fields are optional unless marked required. The same fields are the arguments of the MCP tool `cleandata-labs--google-trends-explorer`.
 

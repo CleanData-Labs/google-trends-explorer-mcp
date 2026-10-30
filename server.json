@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.CleanData-Labs/google-trends-explorer",
-  "title": "Google Trends Explorer",
+  "title": "Google Trends Scraper",
   "description": "Google Trends for agents: interest over time, by region, rising queries, Trending Now. No API key.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://apify.com/cleandata-labs/google-trends-explorer",
   "icons": [
     {
